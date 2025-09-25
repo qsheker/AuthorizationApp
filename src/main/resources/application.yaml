@@ -1,0 +1,16 @@
+spring:
+  application:
+     name: authorizationApp
+
+  datasource:
+    username: postgres.ccqmcszovxnmsukvhsrs
+    password: "iqh$hfMF4+Rv+Ga"
+    driver-class-name: org.postgresql.Driver
+    url: jdbc:postgresql://aws-1-eu-north-1.pooler.supabase.com:6543/postgres
+  jpa:
+    show-sql: true
+    hibernate:
+      ddl-auto: create
+    properties:
+      hibernate:
+        dialect: org.hibernate.dialect.PostgreSQLDialect
